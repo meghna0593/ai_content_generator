@@ -7,8 +7,10 @@ source myenv/bin/activate
 2. make install
 
 3. Create .env file and add OpenAI API keys
->OPENAI_API_KEY=
->OPEN_AI_ORG_ID=
+```text
+OPENAI_API_KEY=
+OPEN_AI_ORG_ID=
+```
 
 4. make execute
 
