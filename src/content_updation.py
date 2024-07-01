@@ -44,51 +44,18 @@ def replace_new_content():
     pass
 
 
-def helper(json_obj, ref_data, new_data):
-
-    if isinstance(json_obj, dict):
-        # to extract the innermost text
-        if "guid" in json_obj and "type" in json_obj:
-            if "options" in json_obj and isinstance(json_obj["options"], dict):
-                if json_obj["type"] == "LpTextReact":
-                    if json_obj["options"]["doc"]["content"][0]["type"] == "paragraph":
-                        for content in json_obj["options"]["doc"]["content"][0]["content"]:
-                            # results[json_obj["options"]["doc"]["content"][0]["type"]].append(content["text"])
-                            inner_most_text[json_obj["options"]["doc"]["content"][0]["type"]].append(
-                                {"text": content["text"], "guid": json_obj["guid"]}
-                            )
-                    elif json_obj["options"]["doc"]["content"][0]["type"] == "headline":
-                        for content in json_obj["options"]["doc"]["content"][0]["content"]:
-                            # results[json_obj["options"]["doc"]["content"][0]["type"]].append(content["text"])
-                            inner_most_text[json_obj["options"]["doc"]["content"][0]["type"]].append(
-                                {"text": content["text"], "guid": json_obj["guid"]}
-                            )
-                elif json_obj["type"] == "LpButtonReact":
-                    inner_most_text[json_obj["type"]].append(
-                        {"text": json_obj["options"]["text"], "guid": json_obj["guid"]}
-                    )
-
-        for key, value in json_obj.items():
-            dfs_extract(value, inner_most_text)
-    elif isinstance(json_obj, list):
-        for item in json_obj:
-            dfs_extract(item, inner_most_text)
-
-    return inner_most_text
-
-
 def extract_text_from_json(json_data, reference_data, new_data):
     updated_data = []
     for idx in range(len(json_data["boxes"])):
-        helper(json_data["boxes"][idx], reference_data[idx], new_data[idx])
-        # recursion till the innermost content and then
+        pass
+        # helper(json_data["boxes"][idx], reference_data[idx], new_data[idx])
 
 
 def create_new_content():  # main entry point
-    source_file = "../data/input/test.json"
-    dest_file = "../data/output/result.json"
-    resource_ai_clean_file = "../resources/ai_generated_page_content.json"
-    resource_original_file = "../resources/original_page_content_processed.json"
+    source_file = "./data/input/test.json"
+    dest_file = "./data/output/result.json"
+    resource_ai_clean_file = "./data/resources/ai_generated_page_content.json"
+    resource_original_file = "./data/resources/original_page_content_processed.json"
 
     clone_original(source_file, dest_file)
 

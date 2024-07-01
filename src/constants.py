@@ -1,0 +1,5 @@
+INPUT_FILE_PATH = "data/input/test.json"
+OUTPUT_FILE_PATH = "data/output/result.json"
+ORIGINAL_DATA_PROCESSED_FILE_PATH = "data/resources/original_content_processed.json"
+AI_GENERATED_DATA_RAW_FILE_PATH = "data/resources/ai_generated_page_content_raw.json"
+AI_GENERATED_DATA_PROCESSED_FILE_PATH = "data/resources/ai_generated_page_content.json"

@@ -1,0 +1,308 @@
+[
+    {
+        "section_id": "5f334c1f-b89c-b78b-8b14-c7e8cd49b774",
+        "section_name": "Hero",
+        "inner_most_content": {
+            "headline": [
+                {
+                    "text": "Optimize your team's holiday schedules for just $10.",
+                    "guid": "89f94a98-bd84-11b9-b14e-e68cd82c2a84"
+                }
+            ],
+            "paragraph": [
+                {
+                    "text": "Exclusive holiday discount for new clients: You pay only $10 now through January 1 for unlimited employees, calendars, and dashboards. ",
+                    "guid": "20466dfb-6aae-9453-08fe-01cad88977f7"
+                }
+            ],
+            "LpButtonReact": [
+                {
+                    "text": "Start Scheduling",
+                    "guid": "de718ec1-e6be-ebde-0402-182408d3ebe1"
+                }
+            ],
+            "count": [
+                1,
+                1,
+                1
+            ]
+        }
+    },
+    {
+        "section_id": "fd3b717e-711d-3164-bcd5-0632611911f5",
+        "section_name": "Countdown Timer",
+        "inner_most_content": {
+            "headline": [
+                {
+                    "text": "This offer expires Cyber Monday at midnight. ",
+                    "guid": "6ffc8ff8-7f58-e93a-fa04-0f65dc5f9d67"
+                }
+            ],
+            "paragraph": [
+                {
+                    "text": "Hurry!",
+                    "guid": "e80e4a62-165b-b4e8-0b34-7dfe32514654"
+                }
+            ],
+            "LpButtonReact": [],
+            "count": [
+                1,
+                1,
+                0
+            ]
+        }
+    },
+    {
+        "section_id": "5f3a60b8-b22a-8623-3536-86d6185d95f6",
+        "section_name": "Testimonial",
+        "inner_most_content": {
+            "headline": [
+                {
+                    "text": "Convenient Scheduling",
+                    "guid": "e613d482-d55c-12d3-7a44-f88381e503ca"
+                }
+            ],
+            "paragraph": [
+                {
+                    "text": "\"Our employees love the flexibility of controlling their own schedules, and our managers love that shifts are always filled with competent talent. It saves time and headaches that we\u2019ve always had when creating our staff calendar and time clock. I\u2019d pay just about any price for the convenience of this software!\"",
+                    "guid": "8ddfc5d2-052d-cfba-6a18-afd9236d985c"
+                },
+                {
+                    "text": "Jeann Ring, \nOwner of Fusion Restaurant",
+                    "guid": "f1ba4856-0f59-69df-9e13-0b7b372d1df3"
+                }
+            ],
+            "LpButtonReact": [],
+            "count": [
+                1,
+                2,
+                0
+            ]
+        }
+    },
+    {
+        "section_id": "d6f124da-9446-3166-f453-1c4dd843bcd7",
+        "section_name": "Content",
+        "inner_most_content": {
+            "headline": [
+                {
+                    "text": "Flexible working made easy.",
+                    "guid": "9e0723c8-61e1-fc8b-f7c7-fb8edef4ef22"
+                }
+            ],
+            "paragraph": [
+                {
+                    "text": "Is your staff ready for the holiday rush? Schedule your part-time, full-time, and seasonal employees with ScheduleMasters software.",
+                    "guid": "150b82b3-ba78-3456-0e4f-fdce3359b57d"
+                }
+            ],
+            "LpButtonReact": [],
+            "count": [
+                1,
+                1,
+                0
+            ]
+        }
+    },
+    {
+        "section_id": "052c9231-0e9e-5b8b-025b-f0bbbe5d88e5",
+        "section_name": "Why",
+        "inner_most_content": {
+            "headline": [
+                {
+                    "text": "Why choose ScheduleMasters?",
+                    "guid": "9dcd2ef7-71d1-1dca-53bf-4056dd8a6d66"
+                },
+                {
+                    "text": "Flexible Scheduling",
+                    "guid": "75a225db-7a87-17f5-c3b2-1e729c0bbf75"
+                },
+                {
+                    "text": "Time Clock",
+                    "guid": "50699498-ffca-a4ab-7201-b4a9fb9c7705"
+                },
+                {
+                    "text": "Compliance",
+                    "guid": "a73669ef-c40b-6eb6-550c-85bdd3315e5f"
+                },
+                {
+                    "text": "Communication",
+                    "guid": "85392dff-7c3d-2801-2a0e-36affe47a86e"
+                }
+            ],
+            "paragraph": [
+                {
+                    "text": "Your employees have the power to pick up, drop, and swap their shifts. This gives employees more control of their work-life balance, while freeing managers to focus on your customers.",
+                    "guid": "e95c6341-62ae-7215-504e-dc41972dd2ff"
+                },
+                {
+                    "text": "The mobile GPS clock-in/out feature ensures employees are always on time, on location. If someone is late or forgets to clock, notifications to employees and managers keep everyone working together.",
+                    "guid": "cb0b657e-ed88-b0d6-3f51-a45966befc8d"
+                },
+                {
+                    "text": "Our software automatically tracks hours, overtime, and benefits packages to easily and effectively ensure you\u2019re compliant with government and industry standards.",
+                    "guid": "ec4fd187-c44d-39d6-5c85-d58a33cd174f"
+                },
+                {
+                    "text": "No more group text threads and missed emails. All staff members can communicate through the streamlined chat feature and announcement dashboard to guarantee all shifts are filled and productive.",
+                    "guid": "5d2112d6-0fc8-e2f9-11ee-d9293a295602"
+                }
+            ],
+            "LpButtonReact": [
+                {
+                    "text": "Start Scheduling",
+                    "guid": "3958d3cf-707f-a7d5-5fc6-882f1e7e1aae"
+                }
+            ],
+            "count": [
+                5,
+                4,
+                1
+            ]
+        }
+    },
+    {
+        "section_id": "b537561a-68f8-acf4-8d6d-94df280b5d2e",
+        "section_name": "Testimonial 2",
+        "inner_most_content": {
+            "headline": [
+                {
+                    "text": "Improves Customer Satisfaction",
+                    "guid": "e0f655d7-cac2-29b7-0982-a9755c8108a3"
+                }
+            ],
+            "paragraph": [
+                {
+                    "text": "\u201cBefore using scheduling software, we had been losing customers and money due to unfilled shifts and unhappy employees. When we implemented ScheduleMasters, our employees could work when it fit their schedule and we could bring more talent onboard to fill the hours. It drastically impacted the quality of our everyday culture, which has had a serious influence on the satisfaction of our customers.\u201d",
+                    "guid": "4b857942-f382-adea-9c47-407f8ec69b53"
+                },
+                {
+                    "text": "Lucas Robin, \nManager at Serenity Day Spa",
+                    "guid": "17d14653-454c-ea05-ce34-1dd11ea23f21"
+                }
+            ],
+            "LpButtonReact": [],
+            "count": [
+                1,
+                2,
+                0
+            ]
+        }
+    },
+    {
+        "section_id": "5b8298eb-bf53-b656-f2b8-7468fb7bc418",
+        "section_name": "FAQs",
+        "inner_most_content": {
+            "headline": [
+                {
+                    "text": "We have the answers to your questions.",
+                    "guid": "58ebe15f-d8bf-6db1-c26b-d05112ff668e"
+                },
+                {
+                    "text": "Why do I need ScheduleMasters?",
+                    "guid": "358ba526-c331-45f9-e468-02f66bf94e11"
+                },
+                {
+                    "text": "How do you implement it?",
+                    "guid": "5c28b894-83e3-ec98-a0d5-45f35bbd0a19"
+                },
+                {
+                    "text": "How many employees can I have on ScheduleMasters?",
+                    "guid": "fe57aef9-d866-343f-ce09-6641763c390b"
+                },
+                {
+                    "text": "Do you offer support?",
+                    "guid": "63262b85-c91e-fe2b-f174-bc1e510f77bb"
+                }
+            ],
+            "paragraph": [
+                {
+                    "text": "We\u2019re more than just a scheduling software. Our platform optimizes every aspect of your staffing. From filling shifts to time clocking to employee reviews, ScheduleMasters streamlines and enhances all time-based HR operations. ",
+                    "guid": "0482f48b-dbd6-ffb5-c36c-4d2fca717e4c"
+                },
+                {
+                    "text": "Our software is available through the cloud, so it requires no downloads or hardware. After purchasing and initial management setup, all employees can have online access within the hour. ",
+                    "guid": "667b46c3-7fbc-c315-1696-f627c72fb814"
+                },
+                {
+                    "text": "Our platform can host anywhere from 2 to 20,000 employees, dependent upon the package you select.\n ",
+                    "guid": "004a36b8-b2f3-a942-990d-2aa4af280e3f"
+                },
+                {
+                    "text": "ScheduleMasters has 24/7 phone and email support as well as 9-5 EST online chat. Someone is always available for questions or comments about the software.",
+                    "guid": "96f731fd-bd05-859b-1702-48817b5b930e"
+                }
+            ],
+            "LpButtonReact": [],
+            "count": [
+                5,
+                4,
+                0
+            ]
+        }
+    },
+    {
+        "section_id": "6fb146ec-9988-e81a-105b-ad578902e6e3",
+        "section_name": "CTA",
+        "inner_most_content": {
+            "headline": [
+                {
+                    "text": "Boost your employee engagement and customer service with just $10.",
+                    "guid": "dec99bda-3d8a-a76d-5a7c-1dc40c498eb2"
+                }
+            ],
+            "paragraph": [
+                {
+                    "text": "Take advantage of this deal just in time to handle the hectic holidays.",
+                    "guid": "35a28597-61b7-08bc-c1bc-2fead9cc7fda"
+                }
+            ],
+            "LpButtonReact": [
+                {
+                    "text": "Start for $10",
+                    "guid": "0611e51f-de55-2631-c715-78477bdcd65d"
+                }
+            ],
+            "count": [
+                1,
+                1,
+                1
+            ]
+        }
+    },
+    {
+        "section_id": "a6558f5e-2624-d4b5-f806-e7543531d1b6",
+        "section_name": "Footer",
+        "inner_most_content": {
+            "headline": [],
+            "paragraph": [
+                {
+                    "text": " Your Information is 100% Secure And Will Never Be Shared With Anyone.",
+                    "guid": "104501d5-247c-5191-b321-95c4377681ed"
+                },
+                {
+                    "text": "\u00a9 2023 | ",
+                    "guid": "52e4146b-ef9b-a19f-0fda-4bf87c22f3c8"
+                },
+                {
+                    "text": "Privacy Policy",
+                    "guid": "52e4146b-ef9b-a19f-0fda-4bf87c22f3c8"
+                },
+                {
+                    "text": " | Created with ",
+                    "guid": "52e4146b-ef9b-a19f-0fda-4bf87c22f3c8"
+                },
+                {
+                    "text": "Leadpages",
+                    "guid": "52e4146b-ef9b-a19f-0fda-4bf87c22f3c8"
+                }
+            ],
+            "LpButtonReact": [],
+            "count": [
+                0,
+                5,
+                0
+            ]
+        }
+    }
+]

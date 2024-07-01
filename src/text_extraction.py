@@ -1,23 +1,6 @@
 import json
-
-
-def fetch_raw_data(json_file_path):
-    try:
-        with open(json_file_path, "r") as f:
-            data = json.load(f)
-            return data
-    except FileNotFoundError as e:
-        print(e.strerror)
-        exit(1)  # check this
-
-
-def store_processed_data(extracted_data):
-    try:
-        with open("./resources/original_page_content_processed.json", "w+") as json_file:  # change name
-            json.dump(extracted_data, json_file, indent=4)
-    except FileNotFoundError as e:
-        print(e.strerror)
-        exit(1)  # check this
+from src.constants import ORIGINAL_DATA_PROCESSED_FILE_PATH
+from src.utils import fetch_data, store_data
 
 
 def dfs_extract(json_obj, inner_most_text):
@@ -28,7 +11,6 @@ def dfs_extract(json_obj, inner_most_text):
                 if json_obj["type"] == "LpTextReact":
                     if json_obj["options"]["doc"]["content"][0]["type"] in ("paragraph", "headline"):
                         for content in json_obj["options"]["doc"]["content"][0]["content"]:
-                            # results[json_obj["options"]["doc"]["content"][0]["type"]].append(content["text"])
                             inner_most_text[json_obj["options"]["doc"]["content"][0]["type"]].append(
                                 {"text": content["text"], "guid": json_obj["guid"]}
                             )
@@ -46,11 +28,11 @@ def dfs_extract(json_obj, inner_most_text):
     return inner_most_text
 
 
-def extract_text_from_json(file_path):
-    # Define the path to your JSON file # exception here
-    data = fetch_raw_data(file_path)
+def extract_original_text(file_path):
+    data = fetch_data(file_path)
     processed_original_data = []
 
+    # iterating section-wise
     for box in data.get("boxes", []):
         if "boxes" in box:
             json_format = {"headline": [], "paragraph": [], "LpButtonReact": []}
@@ -64,6 +46,5 @@ def extract_text_from_json(file_path):
             )
             processed_original_data.append(section_data)
 
-    store_processed_data(processed_original_data)
-
+    store_data(processed_original_data, ORIGINAL_DATA_PROCESSED_FILE_PATH)
     return processed_original_data
