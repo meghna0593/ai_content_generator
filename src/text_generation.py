@@ -20,7 +20,7 @@ def __ai_content_generator(prompt, count):
             model="gpt-3.5-turbo-instruct", prompt=prompt, max_tokens=150, temperature=0.8, n=1
         )
 
-        if response.choices[0].text.startswith("?"):
+        if response.choices[0].text.startswith("?"):  # removing bad character
             response.choices[0].text = response.choices[0].text[1:].strip()
         response = response.to_dict()
         try:
@@ -37,7 +37,7 @@ def __ai_content_generator(prompt, count):
         responses.append(response)
     if len(responses) < count:
         print(f"Only {len(responses)} valid responses generated out of {count} requested.")
-    return responses[:count]
+    return responses[:count]  # making sure we return the exact no.of content we need
 
 
 # reformatting new content to match the original processed data
