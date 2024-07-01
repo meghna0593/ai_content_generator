@@ -1,0 +1,25 @@
+# Ignore virtual environment
+**/myenv/
+myenv/
+
+
+# Ignore environment variables file
+.env
+
+# Ignore Python byte-code caches
+**/__pycache__/
+
+# Ignore IDE or editor specific files
+.vscode/
+.idea/
+
+# Ignore any compiled Python files
+*.pyc
+
+# Ignore pipenv or poetry lock file
+Pipfile.lock
+
+# Ignore macOS specific files
+.DS_Store
+
+
