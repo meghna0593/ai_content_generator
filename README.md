@@ -4,7 +4,7 @@
 python3 -m venv myenv
 source myenv/bin/activate
 ```
-2. make install
+2. `make install`
 
 3. Create .env file and add OpenAI API keys
 ```text
@@ -12,7 +12,7 @@ OPENAI_API_KEY=
 OPEN_AI_ORG_ID=
 ```
 
-4. make execute
+4. `make execute`
 
 ## Current Approach:
 1. Extracted Original data in the following format (`src/text_extraction.py`):
